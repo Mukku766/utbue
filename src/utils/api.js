@@ -4,15 +4,12 @@ const BASE_URL = "https://youtube138.p.rapidapi.com"
 
 
 const options = {
-  method: 'GET',
-  url: 'https://youtube138.p.rapidapi.com/auto-complete/',
   params: {
-    q: 'desp',
     hl: 'en',
     gl: 'US'
   },
   headers: {
-    'X-RapidAPI-Key': 'bb84c6dce9mshdc4201acbba8b11p10160bjsn52ff36103fb2',
+    'X-RapidAPI-Key': process.env.REACT_APP_YOUTUBE_API_KEY,
     'X-RapidAPI-Host': 'youtube138.p.rapidapi.com'
   }
 };

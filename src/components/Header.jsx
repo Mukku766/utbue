@@ -57,7 +57,7 @@ const pageName = pathname?.split("/")?.filter(Boolean)?.[0];
         )}
         <Link to="/" className="flex h-12 items-center">
             <img
-                className="h-full hidden dark:md:block"
+                className="h-full display dark:md:block"
                 src={ytLogo}
                 alt="Youtube"
             />
@@ -98,9 +98,9 @@ const pageName = pathname?.split("/")?.filter(Boolean)?.[0];
                 <FiBell className="text-white text-xl cursor-pointer" />
             </div> */}
         </div>
-        <div className="flex h-8 w-8 overflow-hidden rounded-full md:ml-4">
+        {/* <div className="flex h-8 w-8 overflow-hidden rounded-full md:ml-4">
             <img src={mukul} />
-        </div>
+        </div> */}
     </div>
 </div>
 );
